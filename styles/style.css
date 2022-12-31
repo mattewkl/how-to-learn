@@ -21,8 +21,20 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
-  order: 0;
   background-color: #2f80ed;
+  position: absolute;
+  right: 0px;
+  top: 64px;
+}
+
+.header__title {
+  flex-direction: column;
+  align-self: center;
+  width: 720px;
+  margin-left: 64px;
+  font-size: 96px;
+  font-weight: 600;
+  z-index: 99;
 }
 
 .logo {
