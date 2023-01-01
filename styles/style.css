@@ -32,9 +32,20 @@
   align-self: center;
   width: 720px;
   margin-left: 64px;
-  font-size: 96px;
+  font-size: 102px;
+  line-height: 96px;
   font-weight: 600;
   z-index: 99;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
 }
 
 .logo {
