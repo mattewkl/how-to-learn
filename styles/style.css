@@ -78,7 +78,6 @@
 .description {
   display: flex;
   margin-top: 100px;
-  border: solid 1px black;
 }
 
 .two-columns {
@@ -87,7 +86,6 @@
   display: flex;
   flex-direction: row;
   margin: auto;
-  border: 2px red solid;
   justify-content: space-between;
 }
 
@@ -95,8 +93,22 @@
   display: flex;
   width: 175px;
   color: #2f80ed;
-}
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+} 
+
 
 .two-columns__main-text {
   width: 80%;
+}
+
+.two-columns__paragraph {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.two-columns__span-accent {
+  font-weight: 600;
 }
