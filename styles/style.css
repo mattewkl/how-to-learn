@@ -1,8 +1,13 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 .header {
@@ -276,7 +281,7 @@
   padding-top: 90px;
   flex-direction: column;
   margin-bottom: 0;
-  background-color: #000;
+  background-color:  #1f1f1f;
   border: #2f80ed solid 2px;
   overflow: hidden;
   padding-bottom: 90px;
@@ -296,7 +301,7 @@
   padding-bottom: 40px;
   width: 100%;
   min-height: 350px;
-  background-color: #000;
+  background-color:  #1f1f1f;
   display: flex;
   border: solid 2px red;
   
