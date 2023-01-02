@@ -31,6 +31,16 @@ h1, h2, h3, h4, h5, h6, p {
   top: 64px;
 }
 
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link:visited {
+  text-decoration: none;
+  color:#2f80ed;
+}
+
 .header__title {
   flex-direction: column;
   align-self: center;
@@ -68,7 +78,6 @@ h1, h2, h3, h4, h5, h6, p {
   width: 228px;
   height: 32px;
   position: relative;
-  border: 1px solid red;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -179,7 +188,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .table_theme_dark {
   color: white;
-  border: #f2f2f2 1px solid;
   z-index: 99;
 }
 
@@ -190,11 +198,9 @@ h1, h2, h3, h4, h5, h6, p {
   width: 250px;
   margin-top: 60px;
   margin-left: 0px;
-  border: red solid 1px;
 }
 
 .table__cell_theme_dark {
-  border: 1px solid white;
   color: white;
   width: 200px;
   margin-top: 80px;
@@ -273,7 +279,13 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 51px;
   font-weight: normal;
   text-decoration: none;
+  color: #2f80ed;
 } 
+
+.feynman__link:visited {
+  text-decoration: none;
+  color: #2f80ed;
+}
 
 .kaufman {
   display: flex;
@@ -282,7 +294,6 @@ h1, h2, h3, h4, h5, h6, p {
   flex-direction: column;
   margin-bottom: 0;
   background-color:  #1f1f1f;
-  border: #2f80ed solid 2px;
   overflow: hidden;
   padding-bottom: 90px;
 }
@@ -303,7 +314,6 @@ h1, h2, h3, h4, h5, h6, p {
   min-height: 350px;
   background-color:  #1f1f1f;
   display: flex;
-  border: solid 2px red;
   
 }
 
@@ -312,7 +322,6 @@ h1, h2, h3, h4, h5, h6, p {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  border: solid white 2px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -322,19 +331,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer__column_content_copyright {
-  border: 1px solid white;
   flex-basis: 711px;
   position: relative;
 }
 
 .footer__column_content_info {
-  border: 1px solid white;
   flex-direction: column;
   
 }
 
 .footer__column_content_social {
-  border: 1px solid white;
   flex-direction: column;
   
 }
@@ -347,14 +353,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer__column-link {
-  color: white;
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
   text-decoration: none;
-
 }
 
+.footer__column-link:visited {
+  text-decoration: none;
+  color: white;
+}
 
 
 .footer__column-heading {
@@ -364,7 +372,6 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 600;
   margin-top: 0px;
   margin-bottom: 20px;
-  border: 1px solid white;
 }
 
 .footer__author {
