@@ -1,8 +1,3 @@
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -21,7 +16,6 @@ h1, h2, h3, h4, h5, h6, p {
   
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -42,6 +36,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header__title {
+  margin: 0;
   flex-direction: column;
   align-self: center;
   width: 720px;
@@ -53,6 +48,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -64,7 +60,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .logo {
   display: flex;
-  position: absolute;
+  
 }
 
 .logo_place_header {
@@ -72,12 +68,12 @@ h1, h2, h3, h4, h5, h6, p {
   left: 64px;
   width: 228px;
   height: 32px;
+  position: absolute;
 }
 
 .logo_place_footer {
   width: 228px;
   height: 32px;
-  position: relative;
 }
 
 
@@ -96,7 +92,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .two-columns {
   width: 80%;
-  min-width: 784px;
+  
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -104,6 +100,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .two-columns__brief {
+   margin: 0;
   display: flex;
   width: 175px;
   color: #2f80ed;
@@ -112,22 +109,27 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: normal;
 } 
 
-
-
-
-
-
-
 .two-columns__main-text {
+  margin: 0;
   width: 80%;
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
+  margin: 0;
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
 }
 
+.two-columns__paragraph:nth-child(2) {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
+}
 .two-columns__span-accent {
   font-weight: 600;
 }
@@ -136,10 +138,11 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   margin-top: 100px;
   flex-direction: column;
-  margin-bottom: 0;
+  margin-bottom: 100px;
 }
 
 .section-title {
+  margin: 0;
   display: flex;
   width: 60%;
   margin-left: auto;
@@ -149,6 +152,7 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  z-index: 99;
 }
 
 .section-title_theme_dark {
@@ -156,6 +160,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .section-subtitle {
+  margin: 0;
   display: flex;
   width: 60%;
   margin-top: 20px;
@@ -166,12 +171,12 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 24px;
   font-weight: normal;
   line-height: 36px;
+  z-index: 99;
 }
 
 .section-subtitle_theme_dark {
   color: white;
 }
-
 
 .table {
   display: flex;
@@ -181,6 +186,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 0;
   justify-content: space-between;
   flex-wrap: wrap;
+  z-index: 99;
   
 }
 
@@ -206,6 +212,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .table__heading {
+  margin: 0;
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 1.15;
@@ -220,6 +227,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .table__text {
+  margin: 0;
   margin-top: 20px;
   margin-bottom: 0;
   line-height: 1.20;
@@ -234,9 +242,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 .feynman {
   display: flex;
-  margin-top: 100px;
+  padding-top: 100px;
   width: 100%;
-  height: 790px;
+  min-height: 890px;
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -246,6 +254,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .feynman__title {
+  margin: 0;
   display: flex;
   width: 648px;
   justify-content: center;
@@ -259,6 +268,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .feynman__subtitle {
+  margin: 0;
   display: block;
   margin-top: 70px;
   margin-left: auto;
@@ -269,6 +279,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .feynman__link {
+  margin: 0;
   display: flex;
   position: absolute;
   top: 50%;
@@ -294,6 +305,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-color:  #1f1f1f;
   overflow: hidden;
   padding-bottom: 90px;
+  
 }
 
 .kaufman__triangle {
@@ -306,6 +318,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer {
+  box-sizing: border-box;
   padding-top: 60px;
   padding-bottom: 40px;
   width: 100%;
@@ -351,6 +364,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer__column-link {
+  margin: 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
@@ -365,6 +379,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .footer__column-heading {
+  margin: 0;
   color: white;
   line-height: 30px;
   font-size: 18px;
@@ -374,6 +389,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer__author {
+  margin: 0;
   color: white;
   position: absolute;
   bottom: 18px;
@@ -386,4 +402,8 @@ h1, h2, h3, h4, h5, h6, p {
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  margin-right: 10px;
 }
+
+
+/* Ревьюер, извините за этот бред с исправлениями по две штуки, у меня сдохла аудиосистема, и я не посмотрел вебинар, поэтому только щас смог разобраться как работает система ревью. спасибо за понимание. */
