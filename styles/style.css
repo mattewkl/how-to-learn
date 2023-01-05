@@ -60,7 +60,6 @@
 
 .logo {
   display: flex;
-  
 }
 
 .logo_place_header {
@@ -92,7 +91,6 @@
 
 .two-columns {
   width: 80%;
-  
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -100,7 +98,7 @@
 }
 
 .two-columns__brief {
-   margin: 0;
+  margin: 0;
   display: flex;
   width: 175px;
   color: #2f80ed;
@@ -187,7 +185,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 99;
-  
 }
 
 .table_theme_dark {
@@ -218,7 +215,6 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  
 }
 
 .table__heading_theme_dark {
@@ -305,7 +301,6 @@
   background-color:  #1f1f1f;
   overflow: hidden;
   padding-bottom: 90px;
-  
 }
 
 .kaufman__triangle {
@@ -315,6 +310,9 @@
   top: 0px;
   right: -210px;
   z-index: 98;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {
@@ -337,17 +335,19 @@
   justify-content: space-between;
 }
 
-.footer_column {
+.footer__column {
   display: flex;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__column_content_info {
   flex-direction: column;
+  
   
 }
 
@@ -391,11 +391,10 @@
 .footer__author {
   margin: 0;
   color: white;
-  position: absolute;
-  bottom: 18px;
   line-height: 25px;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: normal;
+  margin-bottom: 18px;
 }
 
 
@@ -406,4 +405,3 @@
 }
 
 
-/* Ревьюер, извините за этот бред с исправлениями по две штуки, у меня сдохла аудиосистема, и я не посмотрел вебинар, поэтому только щас смог разобраться как работает система ревью. спасибо за понимание. */
