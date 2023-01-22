@@ -1,0 +1,13 @@
+.footer__column-link {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer__column-link:visited {
+    text-decoration: none;
+    color: white;
+  }
