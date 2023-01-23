@@ -1,0 +1,11 @@
+.cards {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 920px;
+    border: 2px solid red;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
