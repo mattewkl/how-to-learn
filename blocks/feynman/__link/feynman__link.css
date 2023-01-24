@@ -1,22 +1,22 @@
 .feynman__link {
-    margin: 0;
-    display: flex;
-    position: absolute;
-    top: 50%;
-    right: 48px;
-    font-size: 36px;
-    line-height: 51px;
-    font-weight: normal;
-    text-decoration: none;
-    color: #2f80ed;
+  margin: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
   } 
   
   .feynman__link:visited {
-    text-decoration: none;
-    color: #2f80ed;
+  text-decoration: none;
+  color: #2f80ed;
   }
 
   .feynman__link:hover {
-    opacity: 0.9;
-    transition: 0.3 ease-in-out;
+  opacity: 0.9;
+  transition: 0.3 ease-in-out;
   }
