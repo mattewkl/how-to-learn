@@ -1,16 +1,16 @@
 .header__link {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: #2f80ed;
-  }
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #2f80ed;
+}
 
-  .header__link:visited {
-    text-decoration: none;
-    color:#2f80ed;
-  }
+.header__link:visited {
+  text-decoration: none;
+  color:#2f80ed;
+}
 
-  .header__link:hover {
-    opacity: 0.9;
-    transition: 0.3s ease-in-out;
-  }
+.header__link:hover {
+  opacity: 0.9;
+  transition: 0.3s ease-in-out;
+}
