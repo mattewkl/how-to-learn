@@ -9,4 +9,7 @@
     flex-direction: column;
     position: relative;
     background-color: #f2f2f2;
+    box-sizing: border-box;
   }
+
+  
